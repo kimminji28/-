@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+    <link rel="stylesheet" href="회원가입.css" />
+  </head>
+  <body>
+    <div id="container">
+      <form action="#" id="river">
+        <section>
+          <fieldset>
+        <figcaption>회원가입</figcaption>
+        <ul>
+          <li>
+            <label for="USER_ID">아이디</label>
+            <input type="text" id="USER_ID" name="USER_ID" placeholder="아이디 입력"/>
+            <button type="button">중복확인</button>
+          </li>
+          <li>
+            <label for="password">비밀번호</label>
+            <input
+              type="password"
+              id="pw"
+              name="pw"
+              placeholder="8글자 이상 입력해주세요."
+            />
+          </li>
+          <li>
+            <label for="password">비밀번호확인</label>
+            <input type="pwc" id="pwc" name="pwc" placeholder="비밀번호 확인"/>
+          </li>
+          <li>
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" />
+          </li>
+          <li>
+            <label for="TEL">전화번호</label>
+            <input type="tel" id="TEL" name="TEL" />
+          </li>
+          <li>
+            <label for="email">이메일</label>
+            <input type="email" id="email" name="email" />
+          </li>
+          <li>
+            <label for="address">집주소</label>
+            <input type="text" id="address" name="address" />
+            <button type="button">주소조회</button>
+          </li>
+        </ul>
+        <section id="btn">
+        <button type="button" id="one">이전</button>
+        <button type="submit" id="two">회원가입</button>
+        <button type="reset" id="three">정보 수정</button>
+        </section>
+      </form>
+      </fieldset>
+      </section>
+    </div>
+  </body>
+</html>
